@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(234, 247, 169);
+}
+h1{
+  text-align: center;
+  color: rgb(212, 30, 30);
+  margin-top: 20px;
+}
+.screen{
+  background-color: rgb(238, 166, 222);
+  border: solid black 2px;
+  color: black;
+  font-size: medium;
+  width: 30;
+  cursor: default;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+input[type='button']:hover{
+  background-color: #cbd1e7;
+}
+input[type='button']:active{
+  background-color: #cbd1e7;
+}
+.operator{
+  background-color: #f4d6d6;
+  padding: 20px;
+  color: rgb(24, 23, 24);
+  border: solid black 2px;
+  font-size: large;
+  align-self: center;
+  width: 30%;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.number{
+  padding: 20px;
+  height: 35px;
+  color: black;
+  border: solid black 2px;
+  font-size: large;
+  align-self: center;
+  width: 30%;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #78e0a7;
+}
+.decimal{
+  background-color: #c3c1c9;
+  padding: 20px;
+  color: rgb(0, 76, 133);
+  border: solid black 2px;
+  font-size: large;
+  align-self: center;
+  width: 30%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.clear{
+  background-color: #fd8174;
+  padding: 20px;
+  color: black;
+  border: solid black 2px;
+  font-size: large;
+  align-self: center;
+  width: 30%;
+  height: 38px;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+.equal{
+  background-color: #87cae7;
+  padding: 20px;
+  color: rgb(251, 11, 11);
+  border: solid black 2px;
+  font-size: large;
+  align-self: center;
+  width: 30%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.container{
+  background-color: rgba(255, 255, 255, 0.916);
+  padding: 20px;
+  color: black;
+  border: solid black 2px;
+  font-size: large;
+  width: 20%;
+  height:20%;
+  display: block;
+  align-self: center;
+  border-radius: 20px;
+  margin: 30px auto;
+  box-shadow: 5px 10px 20px black;
+}
+table{
+  width: 50%;
+}
